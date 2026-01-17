@@ -34,6 +34,7 @@ async def extracting_articles_list(page):
     category = await page.query_selector('div.catName')
     if category:
         category = await category.inner_text()
+    # for extracting the top 5 articles
     for article in range(1,6):
         print(f"Article no {article}")
         title = await article_list[article].query_selector('h2')
@@ -51,12 +52,14 @@ async def extracting_articles_list(page):
             author = await author.inner_text()
         
         print(f"Title: {title}, Image URL: {image_url}, Author: {author}, Category: {category}")
+
         article_dict = {
             "title": title, 
             "image_url": image_url, 
             "category": category,
             "author": author  
         }
+
         output_json['entertainment_news'].append(article_dict)
 
 async def extracting_cartoon(page):
