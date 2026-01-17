@@ -1,0 +1,27 @@
+1. first make a plan
+
+prompt to generate plan:
+"Hey i want to write a browser automation script in python using playwright that is able to extract structured data from a nepali news website. (https://ekantipur.com). Generate me a plan first"
+
+Making it specific
+"I want to first navigate to the entertainment section (मनोरञ्जन). From there i want to extract the top 5 news articles with the following data points:
+1. title
+2. image url
+3. category
+4. author.
+
+I would like the data to be in JSON format"
+
+"give me starter template to get started with playwright only to navigate to the website. Give me nothing else"
+
+"navigation to the link has been done. Now how do i wait for the page to fully load."
+
+"make my code such that image_url contains the plain url string only nothing else. So when i print it saying print(f"HI this is the image element {image_url}") it should print it properly without any bugs"
+
+"what is the selector for accessing the first and only div with class cartoon-wrap under section with class cartoon-wrapper"
+
+"make my code such that image_url contains the plain url string only nothing else. So when i print it saying print(f"HI this is the image element {image_url}") it should print it properly without any bugs"
+
+"only change line 50 such that only the text until the '-' is extracted in the title variable"
+
+"now that the required data has been appended in output_json. I want to create a new file named "output.json". Which will contain the extracted data. Dont modify anything else please."

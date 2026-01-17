@@ -1,0 +1,39 @@
+{
+  "entertainment_news": [
+    {
+      "title": "‘खरायो र कछुवा’को यात्रामा एक थिएटर",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/kachuwa-kharayo-111-1712026115007-1000x0.jpg&w=301&h=0",
+      "category": "मनोरञ्जन",
+      "author": "समर्पण श्री"
+    },
+    {
+      "title": "सेफ सन्तोषमाथि बन्ने फिल्म बर्लिनाले ‘को–प्रोडक्सन’मा",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/entertainment/sdfsdfsdfsdaf-1612026073036-1000x0.jpg&w=301&h=0",
+      "category": "मनोरञ्जन",
+      "author": "कान्तिपुर संवाददाता"
+    },
+    {
+      "title": "सेन्सर बोर्डले ल्यायो नयाँ कार्यविधि ",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/img-20251219-wa0019-1-1512026025131-1000x0.jpg&w=301&h=0",
+      "category": "मनोरञ्जन",
+      "author": "कान्तिपुर संवाददाता"
+    },
+    {
+      "title": "आमिर खान प्रोडक्शन्सको नयाँ फिल्म ‘एक दिन’को पहिलो झलक",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/ek-din-1512026112408-1000x0.jpg&w=301&h=0",
+      "category": "मनोरञ्जन",
+      "author": "कान्तिपुर संवाददाता"
+    },
+    {
+      "title": "हलमा तीन फिल्म",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/3-films-1512026062726-1000x0.png&w=301&h=0",
+      "category": "मनोरञ्जन",
+      "author": "कान्तिपुर संवाददाता"
+    }
+  ],
+  "cartoon_of_the_day": {
+    "title": "गजब छ बा!",
+    "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2022/third-party/gajab-chha-ba-821002-1612026021932-1000x0.jpg&w=701&h=0",
+    "author": "अविन"
+  }
+}
