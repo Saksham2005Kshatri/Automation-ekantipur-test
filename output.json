@@ -1,6 +1,12 @@
 {
   "entertainment_news": [
     {
+      "title": "धरानमा ‘रेडियो अन ह्विल्स’",
+      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/entertainment/whatsapp-image-2026-01-17-at-93639-pm-1712026051510-1000x0.jpg&w=301&h=0",
+      "category": "मनोरञ्जन",
+      "author": "कान्तिपुर संवाददाता"
+    },
+    {
       "title": "‘खरायो र कछुवा’को यात्रामा एक थिएटर",
       "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/kachuwa-kharayo-111-1712026115007-1000x0.jpg&w=301&h=0",
       "category": "मनोरञ्जन",
@@ -23,17 +29,11 @@
       "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/ek-din-1512026112408-1000x0.jpg&w=301&h=0",
       "category": "मनोरञ्जन",
       "author": "कान्तिपुर संवाददाता"
-    },
-    {
-      "title": "हलमा तीन फिल्म",
-      "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/3-films-1512026062726-1000x0.png&w=301&h=0",
-      "category": "मनोरञ्जन",
-      "author": "कान्तिपुर संवाददाता"
     }
   ],
   "cartoon_of_the_day": {
     "title": "गजब छ बा!",
-    "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2022/third-party/gajab-chha-ba-821002-1612026021932-1000x0.jpg&w=701&h=0",
+    "image_url": "https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2022/third-party/gajab-chha-ba-821004-1812026024315-1000x0.jpg&w=701&h=0",
     "author": "अविन"
   }
 }

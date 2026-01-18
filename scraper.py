@@ -19,8 +19,6 @@ async def main():
 
         # for cartoon page
         await page.goto('https://ekantipur.com/cartoon', timeout=120000)
-        # await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
-        # await asyncio.sleep(2)
         await extracting_cartoon(page)
         await browser.close()
     
@@ -68,21 +66,20 @@ async def extracting_articles_list(page):
 
 async def extracting_cartoon(page):
     cartoons = await page.query_selector_all('div.catroon-wrap')
-    for cartoon in range(1):
-        image_element = await cartoons[cartoon].query_selector('img')
-        if image_element:
-            image_url = await image_element.get_attribute('src') or await image_element.get_attribute('data-src')
-        title_author = await cartoons[cartoon].query_selector('div.cartoon-author p')
-        title = (await title_author.inner_text()).split('-')[0].strip()
-        author = (await title_author.inner_text()).split('-')[1].strip()
+
+    image_element = await cartoons[0].query_selector('img')
+    if image_element:
+        image_url = await image_element.get_attribute('src') or await image_element.get_attribute('data-src')
+    title_author = await cartoons[0].query_selector('div.cartoon-author p')
+    title = (await title_author.inner_text()).split('-')[0].strip()
+    author = (await title_author.inner_text()).split('-')[1].strip()
+
     print(f"TITLE: {title}, AUTHOR: {author}, IMAGEURL: {image_url}")
     output_json['cartoon_of_the_day'] = {
         "title": title, 
         "image_url": image_url,
         "author": author
     }
-
-    
 
 
 
