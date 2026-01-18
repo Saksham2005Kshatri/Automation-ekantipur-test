@@ -35,7 +35,11 @@ async def extracting_articles_list(page):
     if category:
         category = await category.inner_text()
     # for extracting the top 5 articles
-    for article in range(1,6):
+
+    # if there are fewer than 5 articles
+    count = min(len(article_list), 5)
+
+    for article in range(count):
         print(f"Article no {article}")
         title = await article_list[article].query_selector('h2')
         if title:
